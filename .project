@@ -17,7 +17,7 @@
 		<link>
 			<name>indy.build</name>
 			<type>2</type>
-			<locationURI>WORKSPACE_LOC/.indy.build/metadatas</locationURI>
+			<locationURI>WORKSPACE_LOC/.indy.build/CS_metadatas</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
