@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<md:node xmlns:md="http://www.stambia.com/md" defType="com.stambia.file.server" id="_HfTNAHSxEe6Cj7jyPVDy-A" md:ref="resource.md#UUID_TECH_FILE_MD?fileId=UUID_TECH_FILE_MD$type=md$name=File?" internalVersion="v1.0.0">
+<md:node xmlns:md="http://www.stambia.com/md" defType="com.stambia.file.server" id="_HfTNAHSxEe6Cj7jyPVDy-A" name="Source" md:ref="resource.md#UUID_TECH_FILE_MD?fileId=UUID_TECH_FILE_MD$type=md$name=File?" internalVersion="v1.0.0">
   <node defType="com.stambia.file.directory" id="_HhMDYHSxEe6Cj7jyPVDy-A" name="F_CLIENT">
-    <attribute defType="com.stambia.file.directory.path" id="_HhTYIHSxEe6Cj7jyPVDy-A" value="//ad.univ-lille.fr/Etudiants/Homedir3/104009/Desktop/AxelGit/source"/>
+    <attribute defType="com.stambia.file.directory.path" id="_dc5y4Ho6Ee6i1bEIfNaCgQ" value="C:\source"/>
     <node defType="com.stambia.file.file" id="_HhUmQHSxEe6Cj7jyPVDy-A" name="F_CLIENT">
       <attribute defType="com.stambia.file.file.type" id="_Hh51EHSxEe6Cj7jyPVDy-A" value="DELIMITED"/>
       <attribute defType="com.stambia.file.file.lineSeparator" id="_Hh7qQHSxEe6Cj7jyPVDy-A" value="0A"/>
@@ -11,11 +11,13 @@
       <attribute defType="com.stambia.file.file.lastLineToSkip" id="_Hh9fcHSxEe6Cj7jyPVDy-A" value="0"/>
       <attribute defType="com.stambia.file.file.header" id="_Hh9fcXSxEe6Cj7jyPVDy-A" value="0"/>
       <attribute defType="com.stambia.file.file.physicalName" id="_V_GecHSxEe6Cj7jyPVDy-A" value="F_CLIENT_20231001.txt"/>
+      <attribute defType="com.stambia.file.file.charsetName" id="_IuN18Ho9Ee6mjOH6QyZAxg" value="UTF-8"/>
       <node defType="com.stambia.file.record" id="_vFq6QXSxEe6Cj7jyPVDy-A" name="COMPTE">
         <node defType="com.stambia.file.filter" id="_rD1nEXSyEe6Cj7jyPVDy-A" name="CRITERE">
           <attribute defType="com.stambia.file.filter.value" id="_1escYHSyEe6Cj7jyPVDy-A" value="100"/>
           <attribute defType="com.stambia.file.filter.start" id="_BnYsgHSzEe6Cj7jyPVDy-A" value="1"/>
           <attribute defType="com.stambia.file.filter.length" id="_B7kz0HSzEe6Cj7jyPVDy-A" value="3"/>
+          <attribute defType="com.stambia.file.filter.operator" id="_7kk7oHo7Ee6i1bEIfNaCgQ" value="Equals"/>
         </node>
         <node defType="com.stambia.file.field" id="_Gb_okHolEe62SbngGOCG7g" name="TYPE_LIGNE" position="1">
           <attribute defType="com.stambia.file.field.physicalName" id="_GcKnsHolEe62SbngGOCG7g" value="TYPE_LIGNE"/>
@@ -56,6 +58,7 @@
           <attribute defType="com.stambia.file.filter.value" id="_yax_cHSyEe6Cj7jyPVDy-A" value="200"/>
           <attribute defType="com.stambia.file.filter.start" id="_A-s74HSzEe6Cj7jyPVDy-A" value="1"/>
           <attribute defType="com.stambia.file.filter.length" id="_BU5OUHSzEe6Cj7jyPVDy-A" value="3"/>
+          <attribute defType="com.stambia.file.filter.operator" id="_6Iv20Ho7Ee6i1bEIfNaCgQ" value="Equals"/>
         </node>
         <node defType="com.stambia.file.field" id="_4NY_YHolEe62SbngGOCG7g" name="TYPE_LIGNE" position="1">
           <attribute defType="com.stambia.file.field.physicalName" id="_4NY_YXolEe62SbngGOCG7g" value="TYPE_LIGNE"/>
@@ -123,6 +126,7 @@
           <attribute defType="com.stambia.file.filter.value" id="_2luV4HSyEe6Cj7jyPVDy-A" value="203"/>
           <attribute defType="com.stambia.file.filter.start" id="_CQjlUHSzEe6Cj7jyPVDy-A" value="1"/>
           <attribute defType="com.stambia.file.filter.length" id="_CecQUHSzEe6Cj7jyPVDy-A" value="3"/>
+          <attribute defType="com.stambia.file.filter.operator" id="_84lhMHo7Ee6i1bEIfNaCgQ" value="Equals"/>
         </node>
         <node defType="com.stambia.file.field" id="_V0dK4HomEe62SbngGOCG7g" name="TYPE_LIGNE" position="1">
           <attribute defType="com.stambia.file.field.physicalName" id="_V0dx8HomEe62SbngGOCG7g" value="TYPE_LIGNE"/>
@@ -155,6 +159,7 @@
           <attribute defType="com.stambia.file.filter.value" id="_xdROUHSyEe6Cj7jyPVDy-A" value="204"/>
           <attribute defType="com.stambia.file.filter.start" id="_AbGfkHSzEe6Cj7jyPVDy-A" value="1"/>
           <attribute defType="com.stambia.file.filter.length" id="_Awp40HSzEe6Cj7jyPVDy-A" value="3"/>
+          <attribute defType="com.stambia.file.filter.operator" id="_5Ow60Ho7Ee6i1bEIfNaCgQ" value="Equals"/>
         </node>
         <node defType="com.stambia.file.field" id="_jgigYHomEe62SbngGOCG7g" name="TYPE_LIGNE" position="1">
           <attribute defType="com.stambia.file.field.physicalName" id="_jgjHcHomEe62SbngGOCG7g" value="TYPE_LIGNE"/>
@@ -227,6 +232,7 @@
           <attribute defType="com.stambia.file.filter.value" id="_3jSKUHSyEe6Cj7jyPVDy-A" value="205"/>
           <attribute defType="com.stambia.file.filter.start" id="_CstV0HSzEe6Cj7jyPVDy-A" value="1"/>
           <attribute defType="com.stambia.file.filter.length" id="_C-ykUHSzEe6Cj7jyPVDy-A" value="3"/>
+          <attribute defType="com.stambia.file.filter.operator" id="_9vzdEHo7Ee6i1bEIfNaCgQ" value="Equals"/>
         </node>
         <node defType="com.stambia.file.field" id="_6lvhYHomEe62SbngGOCG7g" name="TYPE_LIGNE" position="1">
           <attribute defType="com.stambia.file.field.physicalName" id="_6lwIcHomEe62SbngGOCG7g" value="TYPE_LIGNE"/>
