@@ -6,7 +6,7 @@
   <attribute defType="com.stambia.rdbms.server.designerAutoCommit" id="_bV2D8XozEe6i1bEIfNaCgQ" value="true"/>
   <attribute defType="com.stambia.rdbms.server.password" id="_bV2rAHozEe6i1bEIfNaCgQ" value="A003F517E0B1C33FD344EACC67FAACEE"/>
   <attribute defType="com.stambia.rdbms.server.url" id="_bV2rAXozEe6i1bEIfNaCgQ" value="jdbc:oracle:thin:@195.83.93.26:1521/SIAD_PDB2"/>
-  <node defType="com.stambia.rdbms.schema" id="_TpOWgHozEe6i1bEIfNaCgQ" name="CSG1_ORA1">
+  <node defType="com.stambia.rdbms.schema" id="_TpOWgHozEe6i1bEIfNaCgQ" name="ODS">
     <attribute defType="com.stambia.rdbms.schema.name" id="_TpzlUHozEe6i1bEIfNaCgQ" value="CSG1_ORA1"/>
     <attribute defType="com.stambia.rdbms.schema.rejectMask" id="_Tp0MYHozEe6i1bEIfNaCgQ" value="R_[targetName]"/>
     <attribute defType="com.stambia.rdbms.schema.loadMask" id="_Tp0zcHozEe6i1bEIfNaCgQ" value="L[number]_[targetName]"/>
