@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <md:node xmlns:md="http://www.stambia.com/md" defType="com.stambia.file.server" id="_HfTNAHSxEe6Cj7jyPVDy-A" md:ref="resource.md#UUID_TECH_FILE_MD?fileId=UUID_TECH_FILE_MD$type=md$name=File?" internalVersion="v1.0.0">
   <node defType="com.stambia.file.directory" id="_HhMDYHSxEe6Cj7jyPVDy-A" name="F_CLIENT">
-    <attribute defType="com.stambia.file.directory.path" id="_HhTYIHSxEe6Cj7jyPVDy-A" value="C:\AxelGit\source"/>
+    <attribute defType="com.stambia.file.directory.path" id="_HhTYIHSxEe6Cj7jyPVDy-A" value="//ad.univ-lille.fr/Etudiants/Homedir3/104009/Desktop/AxelGit/source"/>
     <node defType="com.stambia.file.file" id="_HhUmQHSxEe6Cj7jyPVDy-A" name="F_CLIENT">
       <attribute defType="com.stambia.file.file.type" id="_Hh51EHSxEe6Cj7jyPVDy-A" value="DELIMITED"/>
       <attribute defType="com.stambia.file.file.lineSeparator" id="_Hh7qQHSxEe6Cj7jyPVDy-A" value="0A"/>
