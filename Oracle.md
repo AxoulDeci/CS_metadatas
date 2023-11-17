@@ -935,6 +935,9 @@
   <node defType="com.stambia.rdbms.schema" id="_AHwtUH-qEe6IE6AcCtnNjw" name="SAS">
     <attribute defType="com.stambia.rdbms.schema.name" id="_A-HtkH-qEe6IE6AcCtnNjw" value="CSG1_ORA1"/>
     <attribute defType="com.stambia.rdbms.schema.dataStoreFilter" id="_O0WdkH-qEe6IE6AcCtnNjw" value="SAS%"/>
+    <attribute defType="com.stambia.rdbms.schema.loadMask" id="_BjJ2kIU3Ee6kybSjKPTayw" value="L[number]_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.integrationMask" id="_CKmREIU3Ee6kybSjKPTayw" value="I_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.rejectMask" id="_EFlXEIU3Ee6kybSjKPTayw" value="R_[targetName]"/>
     <node defType="com.stambia.rdbms.datastore" id="_HqKOIX-yEe6IE6AcCtnNjw" name="SAS_EMAIL">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_HqKOIn-yEe6IE6AcCtnNjw" value="SAS_EMAIL"/>
       <attribute defType="com.stambia.rdbms.datastore.type" id="_HqKOI3-yEe6IE6AcCtnNjw" value="TABLE"/>
@@ -1446,6 +1449,9 @@
   </node>
   <node defType="com.stambia.rdbms.schema" id="_-3pWAH-5Ee6IE6AcCtnNjw" name="ADM">
     <attribute defType="com.stambia.rdbms.schema.name" id="_FHKMQH-6Ee6IE6AcCtnNjw" value="CSG1_ORA1"/>
+    <attribute defType="com.stambia.rdbms.schema.loadMask" id="_Ayo_oIU3Ee6kybSjKPTayw" value="L[number]_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.integrationMask" id="_CzgEIIU3Ee6kybSjKPTayw" value="I_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.rejectMask" id="_Dg-OIIU3Ee6kybSjKPTayw" value="R_[targetName]"/>
     <node defType="com.stambia.rdbms.datastore" id="_HVz1IX-6Ee6IE6AcCtnNjw" name="SOURCE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_HVz1In-6Ee6IE6AcCtnNjw" value="SOURCE"/>
       <attribute defType="com.stambia.rdbms.datastore.type" id="_HVz1I3-6Ee6IE6AcCtnNjw" value="TABLE"/>
@@ -1476,6 +1482,9 @@
   <node defType="com.stambia.rdbms.schema" id="_JVVWQIUzEe6lN4vpMDZjAg" name="TRANSCO ">
     <attribute defType="com.stambia.rdbms.schema.name" id="_Q8jmUIUzEe6lN4vpMDZjAg" value="CSG1_ORA1"/>
     <attribute defType="com.stambia.rdbms.schema.dataStoreFilter" id="_Tf668IUzEe6lN4vpMDZjAg" value="TRANSCO%"/>
+    <attribute defType="com.stambia.rdbms.schema.loadMask" id="_BJR-AIU3Ee6kybSjKPTayw" value="L[number]_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.integrationMask" id="_CemLIIU3Ee6kybSjKPTayw" value="I_[targetName]"/>
+    <attribute defType="com.stambia.rdbms.schema.rejectMask" id="_EiIJIIU3Ee6kybSjKPTayw" value="R_[targetName]"/>
     <node defType="com.stambia.rdbms.datastore" id="_XYqHEYUzEe6lN4vpMDZjAg" name="TRANSCO_SEXE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_XYqHEoUzEe6lN4vpMDZjAg" value="TRANSCO_SEXE"/>
       <attribute defType="com.stambia.rdbms.datastore.type" id="_XYqHE4UzEe6lN4vpMDZjAg" value="TABLE"/>
