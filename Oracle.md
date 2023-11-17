@@ -1090,8 +1090,9 @@
       <node defType="com.stambia.rdbms.check" id="_JkcmwYUnEe6lN4vpMDZjAg" name="CTRL_CABINET_RATTACHEMENT">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_NkHhUIUnEe6lN4vpMDZjAg" value="controle sur le cabinet de rattachement "/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NyO10IUnEe6lN4vpMDZjAg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_ax1f0IUnEe6lN4vpMDZjAg" value="CABINET_RATTACHEMENT in ('5901','5902','5903','5904' ,'5905' ,'5906' ,'5907' ,'5908' ,'5909')"/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_CtJSkIU5Ee6kybSjKPTayw" value="1=1"/>
       </node>
+      <metaDataLink name="TRANSCO " target="resource.md#_JVVWQIUzEe6lN4vpMDZjAg?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=TRANSCO%20?"/>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_HizB4X-yEe6IE6AcCtnNjw" name="SAS_ADRESSE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_HizB4n-yEe6IE6AcCtnNjw" value="SAS_ADRESSE"/>
@@ -1334,9 +1335,8 @@
       <node defType="com.stambia.rdbms.check" id="_BJvHcYUrEe6lN4vpMDZjAg" name="CTRL_FK_COMPTE">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_GUswcIUrEe6lN4vpMDZjAg" value="controle sur clé étrangère compte"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_GkEpMIUrEe6lN4vpMDZjAg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_JgW0IIUrEe6lN4vpMDZjAg" value="EXISTS(SELECT CLE_COMPTE FROM CSG1_ORA1.SAS_CLIENT)"/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_JgW0IIUrEe6lN4vpMDZjAg" value="1=1"/>
       </node>
-      <metaDataLink name="CLE_COMPTE" target="resource.md#_HevBQH-yEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=CLE_COMPTE?"/>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_He_f8H-yEe6IE6AcCtnNjw" name="SAS_TELEPHONE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_HfAHAH-yEe6IE6AcCtnNjw" value="SAS_TELEPHONE"/>
