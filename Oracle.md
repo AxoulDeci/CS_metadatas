@@ -1473,4 +1473,8 @@
       </node>
     </node>
   </node>
+  <node defType="com.stambia.rdbms.schema" id="_JVVWQIUzEe6lN4vpMDZjAg" name="TRANSCO ">
+    <attribute defType="com.stambia.rdbms.schema.name" id="_Q8jmUIUzEe6lN4vpMDZjAg" value="CSG1_ORA1"/>
+    <attribute defType="com.stambia.rdbms.schema.dataStoreFilter" id="_Tf668IUzEe6lN4vpMDZjAg" value="TRANSCO%"/>
+  </node>
 </md:node>
