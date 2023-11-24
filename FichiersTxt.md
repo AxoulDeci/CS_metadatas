@@ -49,9 +49,9 @@
           <attribute defType="com.stambia.file.field.type" id="_UOcEwXolEe62SbngGOCG7g" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_UOcEwnolEe62SbngGOCG7g" value="9"/>
         </node>
-      </node>
-      <node defType="com.stambia.file.propertyField" id="_wblkVHSxEe6Cj7jyPVDy-A" name="file_name">
-        <attribute defType="com.stambia.file.propertyField.property" id="_yWcugHSxEe6Cj7jyPVDy-A" value="file_name"/>
+        <node defType="com.stambia.file.propertyField" id="_83QLEoq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_83QLE4q7Ee6UQ4O0GYlsJg" value="file_name"/>
+        </node>
       </node>
       <node defType="com.stambia.file.record" id="_-mDe8XSxEe6Cj7jyPVDy-A" name="CLIENT">
         <node defType="com.stambia.file.filter" id="_nbXrkXSyEe6Cj7jyPVDy-A" name="CRITERE">
@@ -120,6 +120,9 @@
           <attribute defType="com.stambia.file.field.type" id="_5PTvYXolEe62SbngGOCG7g" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_5PTvYnolEe62SbngGOCG7g" value="5"/>
         </node>
+        <node defType="com.stambia.file.propertyField" id="_8wjGIoq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_8wjGI4q7Ee6UQ4O0GYlsJg" value="file_name"/>
+        </node>
       </node>
       <node defType="com.stambia.file.record" id="_AIErUXSyEe6Cj7jyPVDy-A" name="EMAIL">
         <node defType="com.stambia.file.filter" id="_roE8kXSyEe6Cj7jyPVDy-A" name="CRITERE">
@@ -152,6 +155,9 @@
           <attribute defType="com.stambia.file.field.physicalName" id="_WBC1YHomEe62SbngGOCG7g" value="STATUS"/>
           <attribute defType="com.stambia.file.field.type" id="_WBC1YXomEe62SbngGOCG7g" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_WBC1YnomEe62SbngGOCG7g" value="5"/>
+        </node>
+        <node defType="com.stambia.file.propertyField" id="_885gEoq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_885gE4q7Ee6UQ4O0GYlsJg" value="file_name"/>
         </node>
       </node>
       <node defType="com.stambia.file.record" id="_AsBF4XSyEe6Cj7jyPVDy-A" name="ADRESSE">
@@ -226,6 +232,9 @@
           <attribute defType="com.stambia.file.field.type" id="_kuhWcXomEe62SbngGOCG7g" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_kuhWcnomEe62SbngGOCG7g" value="5"/>
         </node>
+        <node defType="com.stambia.file.propertyField" id="_8o6NEIq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_8o6NEYq7Ee6UQ4O0GYlsJg" value="file_name"/>
+        </node>
       </node>
       <node defType="com.stambia.file.record" id="_BJj9gXSyEe6Cj7jyPVDy-A" name="TEL">
         <node defType="com.stambia.file.filter" id="_r-gfkXSyEe6Cj7jyPVDy-A" name="CRITERE">
@@ -268,6 +277,9 @@
           <attribute defType="com.stambia.file.field.physicalName" id="_7rpZgHomEe62SbngGOCG7g" value="TYPE"/>
           <attribute defType="com.stambia.file.field.type" id="_7rpZgXomEe62SbngGOCG7g" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_7rpZgnomEe62SbngGOCG7g" value="5"/>
+        </node>
+        <node defType="com.stambia.file.propertyField" id="_9PCY8oq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_9PCY84q7Ee6UQ4O0GYlsJg" value="file_name"/>
         </node>
       </node>
       <node defType="com.stambia.file.record" id="_SbAtIX-oEe6IE6AcCtnNjw" name="ENTETE">
@@ -313,6 +325,9 @@
           <attribute defType="com.stambia.file.filter.length" id="_ev7l-H-pEe6IE6AcCtnNjw" value="3"/>
           <attribute defType="com.stambia.file.filter.operator" id="_ev7l-X-pEe6IE6AcCtnNjw" value="Equals"/>
         </node>
+        <node defType="com.stambia.file.propertyField" id="_9CZEEIq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_9CZEEYq7Ee6UQ4O0GYlsJg" value="file_name"/>
+        </node>
       </node>
       <node defType="com.stambia.file.record" id="_UB058X-oEe6IE6AcCtnNjw" name="PIED">
         <node defType="com.stambia.file.field" id="_irDXsH-pEe6IE6AcCtnNjw" name="TYPE_LIGNE" position="1">
@@ -324,6 +339,9 @@
           <attribute defType="com.stambia.file.field.physicalName" id="_isbQsH-pEe6IE6AcCtnNjw" value="NB_LIGNE"/>
           <attribute defType="com.stambia.file.field.type" id="_isbQsX-pEe6IE6AcCtnNjw" value="String"/>
           <attribute defType="com.stambia.file.field.size" id="_isbQsn-pEe6IE6AcCtnNjw" value="10"/>
+        </node>
+        <node defType="com.stambia.file.propertyField" id="_9H4oEoq7Ee6UQ4O0GYlsJg" name="file_name">
+          <attribute defType="com.stambia.file.propertyField.property" id="_9H4oE4q7Ee6UQ4O0GYlsJg" value="file_name"/>
         </node>
       </node>
     </node>
