@@ -187,13 +187,6 @@
         <attribute defType="com.stambia.rdbms.column.type" id="_G_rPFH-kEe6JNIokCBopZg" value="VARCHAR2"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_G_rPFX-kEe6JNIokCBopZg" value="20"/>
       </node>
-      <node defType="com.stambia.rdbms.column" id="_M6gGYH-yEe6IE6AcCtnNjw" name="LIB_TYPE_TEL" position="10">
-        <attribute defType="com.stambia.rdbms.column.name" id="_M6gGYX-yEe6IE6AcCtnNjw" value="LIB_TYPE_TEL"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_M6gGYn-yEe6IE6AcCtnNjw" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.charByte" id="_M6gGY3-yEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_M6gGZH-yEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_M6gGZX-yEe6IE6AcCtnNjw" value="20"/>
-      </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_bV9YsXozEe6i1bEIfNaCgQ" name="ODS_CLIENT">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_bV9YsnozEe6i1bEIfNaCgQ" value="ODS_CLIENT"/>
@@ -488,43 +481,46 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QkgMkX-qEe6IE6AcCtnNjw" value="SID_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QkgMkn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QkgMk3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QkgMlH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QkgMlX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QkgMlH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QkgMlX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmhCgIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QkhasH-qEe6IE6AcCtnNjw" name="EMAIL" position="2">
         <attribute defType="com.stambia.rdbms.column.name" id="_QkhasX-qEe6IE6AcCtnNjw" value="EMAIL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qkhasn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qkhas3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QkhatH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QkhatX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QkhatX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QkiBwH-qEe6IE6AcCtnNjw" name="STATUS_EMAIL" position="3">
         <attribute defType="com.stambia.rdbms.column.name" id="_QkiBwX-qEe6IE6AcCtnNjw" value="STATUS_EMAIL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QkiBwn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QkiBw3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QkiBxH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QkiBxX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QkiBxH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QkiBxX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmhCgYq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QkkeAH-qEe6IE6AcCtnNjw" name="ID_FICHIER" position="4">
         <attribute defType="com.stambia.rdbms.column.name" id="_QkkeAX-qEe6IE6AcCtnNjw" value="ID_FICHIER"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QkkeAn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QkkeA3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QkkeBH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QkkeBX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QkkeBH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QkkeBX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmhCgoq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QklsIH-qEe6IE6AcCtnNjw" name="DERNIERE_DATE_MAJ_EMAIL" position="5">
         <attribute defType="com.stambia.rdbms.column.name" id="_QklsIX-qEe6IE6AcCtnNjw" value="DERNIERE_DATE_MAJ_EMAIL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QklsIn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QklsI3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QklsJH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QklsJX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QklsJH-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QklsJX-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QkmTMH-qEe6IE6AcCtnNjw" name="DATE_CREATION_EMAIL" position="6">
         <attribute defType="com.stambia.rdbms.column.name" id="_QkmTMX-qEe6IE6AcCtnNjw" value="DATE_CREATION_EMAIL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QkmTMn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QkmTM3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QkmTNH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QkmTNX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QkmTNH-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QkmTNX-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_Qkp9kH-qEe6IE6AcCtnNjw" name="DWH_EMAIL_PK">
         <node defType="com.stambia.rdbms.colref" id="_Qkp9kX-qEe6IE6AcCtnNjw" position="1">
@@ -546,57 +542,59 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QfFhEX-qEe6IE6AcCtnNjw" value="SID_CLIENT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfFhEn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfFhE3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfFhFH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfFhFH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QfFhFX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmX4kIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfGIIH-qEe6IE6AcCtnNjw" name="STATUS_ADR" position="2">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfGIIX-qEe6IE6AcCtnNjw" value="STATUS_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfGIIn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfGII3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfGIJH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfGIJX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfGIJH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfGIJX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmYfoIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfGvMH-qEe6IE6AcCtnNjw" name="NUMERO_ADR" position="3">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfGvMX-qEe6IE6AcCtnNjw" value="NUMERO_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfGvMn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfGvM3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfGvNH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfGvNX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfGvNX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfGvNn-qEe6IE6AcCtnNjw" name="RUE_ADR" position="4">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfGvN3-qEe6IE6AcCtnNjw" value="RUE_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfGvOH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfGvOX-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfGvOn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfGvO3-qEe6IE6AcCtnNjw" value="50"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfGvO3-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfHWQH-qEe6IE6AcCtnNjw" name="CPM_ADR_1" position="5">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfHWQX-qEe6IE6AcCtnNjw" value="CPM_ADR_1"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfHWQn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfHWQ3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfHWRH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfHWRX-qEe6IE6AcCtnNjw" value="50"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfHWRX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfH9UH-qEe6IE6AcCtnNjw" name="CPM_ADR_2" position="6">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfH9UX-qEe6IE6AcCtnNjw" value="CPM_ADR_2"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfH9Un-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfH9U3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfH9VH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfH9VX-qEe6IE6AcCtnNjw" value="50"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfH9VX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfH9Vn-qEe6IE6AcCtnNjw" name="CPM_ADR_3" position="7">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfH9V3-qEe6IE6AcCtnNjw" value="CPM_ADR_3"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfH9WH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfH9WX-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfH9Wn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfH9W3-qEe6IE6AcCtnNjw" value="50"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfH9W3-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfIkYH-qEe6IE6AcCtnNjw" name="VILLE_ADR" position="8">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfIkYX-qEe6IE6AcCtnNjw" value="VILLE_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfIkYn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfIkY3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfIkZH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfIkZX-qEe6IE6AcCtnNjw" value="50"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfIkZX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfIkZn-qEe6IE6AcCtnNjw" name="CODE_POSTAL_ADR" position="9">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfIkZ3-qEe6IE6AcCtnNjw" value="CODE_POSTAL_ADR"/>
@@ -609,43 +607,46 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QfJLcX-qEe6IE6AcCtnNjw" value="PAYS_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfJLcn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfJLc3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfJLdH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfJLdX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfJLdH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfJLdX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmYfoYq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfJygH-qEe6IE6AcCtnNjw" name="LIB_PAYS_ADR" position="11">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfJygX-qEe6IE6AcCtnNjw" value="LIB_PAYS_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfJygn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfJyg3-qEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_QfJyhH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfJyhX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfJyhX-qEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfJyhn-qEe6IE6AcCtnNjw" name="QUALITE_ADR" position="12">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfJyh3-qEe6IE6AcCtnNjw" value="QUALITE_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfJyiH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfJyiX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfJyin-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfJyi3-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfJyin-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfJyi3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmYfooq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfLAoH-qEe6IE6AcCtnNjw" name="ID_FICHIER" position="13">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfLAoX-qEe6IE6AcCtnNjw" value="ID_FICHIER"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfLAon-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfLAo3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfLApH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfLApH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QfLApX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmZGsIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfLApn-qEe6IE6AcCtnNjw" name="DATE_DERNIERE_MAJ_ADR" position="14">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfLAp3-qEe6IE6AcCtnNjw" value="DATE_DERNIERE_MAJ_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfLAqH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfLAqX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfLAqn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfLAq3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfLAqn-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfLAq3-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QfLnsH-qEe6IE6AcCtnNjw" name="DATE_CREATION_ADR" position="15">
         <attribute defType="com.stambia.rdbms.column.name" id="_QfLnsX-qEe6IE6AcCtnNjw" value="DATE_CREATION_ADR"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QfLnsn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QfLns3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QfLntH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QfLntX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QfLntH-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QfLntX-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_QfPSEH-qEe6IE6AcCtnNjw" name="DWH_ADRESSE_PK">
         <node defType="com.stambia.rdbms.colref" id="_QfPSEX-qEe6IE6AcCtnNjw" position="1">
@@ -667,8 +668,9 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqs7MX-qEe6IE6AcCtnNjw" value="SID_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qqs7Mn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qqs7M3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Qqs7NH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Qqs7NH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QqtiQH-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemQIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QquJUH-qEe6IE6AcCtnNjw" name="CLE_CLI" position="2">
         <attribute defType="com.stambia.rdbms.column.name" id="_QquJUX-qEe6IE6AcCtnNjw" value="CLE_CLI"/>
@@ -681,29 +683,33 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QquJV3-qEe6IE6AcCtnNjw" value="SID_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QquJWH-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QquJWX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QquJWn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QquJW3-qEe6IE6AcCtnNjw" value="45"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QquJWn-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QquJW3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemQYq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QquwYH-qEe6IE6AcCtnNjw" name="STATUS_CLI" position="4">
         <attribute defType="com.stambia.rdbms.column.name" id="_QquwYX-qEe6IE6AcCtnNjw" value="STATUS_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QquwYn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QquwY3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QquwZH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QquwZH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QquwZX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemQoq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QqvXcH-qEe6IE6AcCtnNjw" name="TYPE_CLI" position="5">
         <attribute defType="com.stambia.rdbms.column.name" id="_QqvXcX-qEe6IE6AcCtnNjw" value="TYPE_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QqvXcn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QqvXc3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QqvXdH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QqvXdH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QqvXdX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemQ4q4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QqvXdn-qEe6IE6AcCtnNjw" name="CIVILITE_CLI" position="6">
         <attribute defType="com.stambia.rdbms.column.name" id="_QqvXd3-qEe6IE6AcCtnNjw" value="CIVILITE_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QqvXeH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QqvXeX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QqvXen-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QqvXen-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QqvXe3-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemRIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_Qqv-gH-qEe6IE6AcCtnNjw" name="PRENOM_CLI" position="7">
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqv-gX-qEe6IE6AcCtnNjw" value="PRENOM_CLI"/>
@@ -730,15 +736,17 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QqxMp3-qEe6IE6AcCtnNjw" value="SEXE_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QqxMqH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QqxMqX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QqxMqn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QqxMqn-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QqxMq3-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemRYq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QqxzsH-qEe6IE6AcCtnNjw" name="MUTUELLE_CLI" position="11">
         <attribute defType="com.stambia.rdbms.column.name" id="_QqxzsX-qEe6IE6AcCtnNjw" value="MUTUELLE_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qqxzsn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qqxzs3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QqxztH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QqxztH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QqxztX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemRoq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_Qqyaxn-qEe6IE6AcCtnNjw" name="LIB_SEXE_CLI" position="12">
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqyax3-qEe6IE6AcCtnNjw" value="LIB_SEXE_CLI"/>
@@ -765,22 +773,23 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqzo4X-qEe6IE6AcCtnNjw" value="ID_FICHIER"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qqzo4n-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qqzo43-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo5H-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo5H-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_Qqzo5X-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmemR4q4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_Qqzo5n-qEe6IE6AcCtnNjw" name="DERNIERE_DATE_MAJ_CLI" position="16">
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqzo53-qEe6IE6AcCtnNjw" value="DERNIERE_DATE_MAJ_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qqzo6H-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qqzo6X-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo6n-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_Qqzo63-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo6n-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_Qqzo63-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_Qqzo7H-qEe6IE6AcCtnNjw" name="DATE_CREATION_CLI" position="17">
         <attribute defType="com.stambia.rdbms.column.name" id="_Qqzo7X-qEe6IE6AcCtnNjw" value="DATE_CREATION_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_Qqzo7n-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_Qqzo73-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo8H-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_Qqzo8X-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_Qqzo8H-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_Qqzo8X-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_Qq2sMH-qEe6IE6AcCtnNjw" name="DWH_CLIENT_PK">
         <node defType="com.stambia.rdbms.colref" id="_Qq2sMX-qEe6IE6AcCtnNjw" position="1">
@@ -805,8 +814,9 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QZoZUX-qEe6IE6AcCtnNjw" value="SID_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZoZUn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZoZU3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZoZVH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZoZVH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QZoZVX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gma74Iq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZpAYH-qEe6IE6AcCtnNjw" name="CLE_CPT" position="2">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpAYX-qEe6IE6AcCtnNjw" value="CLE_CPT"/>
@@ -819,8 +829,9 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpAZ3-qEe6IE6AcCtnNjw" value="TYPE_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZpAaH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZpAaX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZpAan-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QZpAa3-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZpAan-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QZpAa3-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gma74Yq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZpAbH-qEe6IE6AcCtnNjw" name="LIB_TYPE_CPT" position="4">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpAbX-qEe6IE6AcCtnNjw" value="LIB_TYPE_CPT"/>
@@ -833,36 +844,39 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpncX-qEe6IE6AcCtnNjw" value="STATUS_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZpncn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZpnc3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZpndH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZpndH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QZpndX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gma74oq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZpnfH-qEe6IE6AcCtnNjw" name="CABINET_RATTACHEMENT" position="6">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpnfX-qEe6IE6AcCtnNjw" value="CABINET_RATTACHEMENT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZpnfn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZpnf3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZpngH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZpngH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QZpngX-qEe6IE6AcCtnNjw" value="9"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gma744q4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZpngn-qEe6IE6AcCtnNjw" name="ID_FICHIER" position="7">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZpng3-qEe6IE6AcCtnNjw" value="ID_FICHIER"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZpnhH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZpnhX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZpnhn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QZpnh3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZpnhn-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QZpnh3-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gma75Iq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZqOgH-qEe6IE6AcCtnNjw" name="DERNIERE_DATE_MAJ_CPT" position="8">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZqOgX-qEe6IE6AcCtnNjw" value="DERNIERE_DATE_MAJ_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZqOgn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZqOg3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZqOhH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QZqOhX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZqOhH-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QZqOhX-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZqOhn-qEe6IE6AcCtnNjw" name="DATE_CREATION_CPT" position="9">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZqOh3-qEe6IE6AcCtnNjw" value="DATE_CREATION_CPT"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QZqOiH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QZqOiX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QZqOin-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QZqOi3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QZqOin-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QZqOi3-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QZqOjH-qEe6IE6AcCtnNjw" name="LIB_CABINET_CPT" position="10">
         <attribute defType="com.stambia.rdbms.column.name" id="_QZqOjX-qEe6IE6AcCtnNjw" value="LIB_CABINET_CPT"/>
@@ -891,57 +905,63 @@
         <attribute defType="com.stambia.rdbms.column.name" id="_QwJb4X-qEe6IE6AcCtnNjw" value="SID_CLI"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwJb4n-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwJb43-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwJb5H-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QwJb5X-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwJb5H-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QwJb5X-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gmf0YIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwKqAH-qEe6IE6AcCtnNjw" name="TYPE_TEL" position="2">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwKqAX-qEe6IE6AcCtnNjw" value="TYPE_TEL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwKqAn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwKqA3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwKqBH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwKqBH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QwKqBX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gmf0YYq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwLREH-qEe6IE6AcCtnNjw" name="NUM_TEL" position="3">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwLREX-qEe6IE6AcCtnNjw" value="NUM_TEL"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_QwLREn-qEe6IE6AcCtnNjw" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_QwLREn-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwLRE3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwLRFH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QwLRFX-qEe6IE6AcCtnNjw" value="45"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwLRFH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QwLRFX-qEe6IE6AcCtnNjw" value="38"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gmf0Yoq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwL4IH-qEe6IE6AcCtnNjw" name="STATUS_TEL" position="4">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwL4IX-qEe6IE6AcCtnNjw" value="STATUS_TEL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwL4In-qEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwL4I3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwL4JH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwL4JH-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QwL4JX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gmf0Y4q4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwMfMH-qEe6IE6AcCtnNjw" name="FAVORI_TEL" position="5">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwNGQH-qEe6IE6AcCtnNjw" value="FAVORI_TEL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwNGQX-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwNGQn-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwNGQ3-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwNGQ3-qEe6IE6AcCtnNjw" value="NUMBER"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_QwNGRH-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_Gmf0ZIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwPigH-qEe6IE6AcCtnNjw" name="ID_FICHIER" position="6">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwPigX-qEe6IE6AcCtnNjw" value="ID_FICHIER"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwPign-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwPig3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwPihH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QwPihX-qEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwPihH-qEe6IE6AcCtnNjw" value="NUMBER"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QwPihX-qEe6IE6AcCtnNjw" value="5"/>
+        <attribute defType="com.stambia.rdbms.column.digits" id="_GmgbcIq4Ee6iRfqSgb1Pvw" value="0"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwQJkH-qEe6IE6AcCtnNjw" name="DERNIERE_DATE_MAJ_TEL" position="7">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwQJkX-qEe6IE6AcCtnNjw" value="DERNIERE_DATE_MAJ_TEL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwQJkn-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwQJk3-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwQJlH-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QwQJlX-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwQJlH-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QwQJlX-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_QwQJln-qEe6IE6AcCtnNjw" name="DATE_CREATION_TEL" position="8">
         <attribute defType="com.stambia.rdbms.column.name" id="_QwQJl3-qEe6IE6AcCtnNjw" value="DATE_CREATION_TEL"/>
         <attribute defType="com.stambia.rdbms.column.nullable" id="_QwQJmH-qEe6IE6AcCtnNjw" value="1"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_QwQJmX-qEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_QwQJmn-qEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_QwQJm3-qEe6IE6AcCtnNjw" value="10"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_QwQJmn-qEe6IE6AcCtnNjw" value="DATE"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_QwQJm3-qEe6IE6AcCtnNjw" value="7"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_QwTz8H-qEe6IE6AcCtnNjw" name="DWH_TELEPHONE_PK">
         <node defType="com.stambia.rdbms.colref" id="_QwTz8X-qEe6IE6AcCtnNjw" position="1">
@@ -956,7 +976,7 @@
         <attribute defType="com.stambia.rdbms.column.nullable" id="_RCsq0n-yEe6IE6AcCtnNjw" value="0"/>
         <attribute defType="com.stambia.rdbms.column.charByte" id="_RCsq03-yEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_RCsq1H-yEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_RCsq1X-yEe6IE6AcCtnNjw" value="20"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_RCsq1X-yEe6IE6AcCtnNjw" value="255"/>
       </node>
       <node defType="com.stambia.rdbms.column" id="_biidZoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="10">
         <attribute defType="com.stambia.rdbms.column.name" id="_biidZ4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
@@ -1439,13 +1459,6 @@
         <attribute defType="com.stambia.rdbms.column.type" id="_HitiUX-yEe6IE6AcCtnNjw" value="VARCHAR2"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_HitiUn-yEe6IE6AcCtnNjw" value="20"/>
       </node>
-      <node defType="com.stambia.rdbms.column" id="_HiuJYH-yEe6IE6AcCtnNjw" name="LIB_TYPE_TEL" position="10">
-        <attribute defType="com.stambia.rdbms.column.name" id="_HiuJYX-yEe6IE6AcCtnNjw" value="LIB_TYPE_TEL"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_HiuJYn-yEe6IE6AcCtnNjw" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.charByte" id="_HiuJY3-yEe6IE6AcCtnNjw" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_HiuJZH-yEe6IE6AcCtnNjw" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_HiuJZX-yEe6IE6AcCtnNjw" value="20"/>
-      </node>
       <node defType="com.stambia.rdbms.pk" id="_-0SgAH-5Ee6IE6AcCtnNjw" name="SAS_TELEPHONE_PK">
         <node defType="com.stambia.rdbms.colref" id="_-0SgAX-5Ee6IE6AcCtnNjw" position="1">
           <attribute defType="com.stambia.rdbms.colref.ref" id="_-0SgAn-5Ee6IE6AcCtnNjw" ref="resource.md#_Hiop0H-yEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=CLE_CLIENT?"/>
@@ -1626,6 +1639,24 @@
         <attribute defType="com.stambia.rdbms.column.charByte" id="_XYlOmYUzEe6lN4vpMDZjAg" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_XYlOmoUzEe6lN4vpMDZjAg" value="VARCHAR2"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_XYlOm4UzEe6lN4vpMDZjAg" value="255"/>
+      </node>
+    </node>
+    <node defType="com.stambia.rdbms.datastore" id="_bHJqcYq3Ee6iRfqSgb1Pvw" name="TRANSCO_TYPE_TEL">
+      <attribute defType="com.stambia.rdbms.datastore.name" id="_bHJqcoq3Ee6iRfqSgb1Pvw" value="TRANSCO_TYPE_TEL"/>
+      <attribute defType="com.stambia.rdbms.datastore.type" id="_bHJqc4q3Ee6iRfqSgb1Pvw" value="TABLE"/>
+      <node defType="com.stambia.rdbms.column" id="_bKggcIq3Ee6iRfqSgb1Pvw" name="TYPE_TEL" position="1">
+        <attribute defType="com.stambia.rdbms.column.name" id="_bKggcYq3Ee6iRfqSgb1Pvw" value="TYPE_TEL"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_bKggcoq3Ee6iRfqSgb1Pvw" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_bKggc4q3Ee6iRfqSgb1Pvw" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_bKggdIq3Ee6iRfqSgb1Pvw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_bKggdYq3Ee6iRfqSgb1Pvw" value="20"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_bKhHgIq3Ee6iRfqSgb1Pvw" name="LIB_TEL" position="2">
+        <attribute defType="com.stambia.rdbms.column.name" id="_bKhHgYq3Ee6iRfqSgb1Pvw" value="LIB_TEL"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_bKhHgoq3Ee6iRfqSgb1Pvw" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_bKhHg4q3Ee6iRfqSgb1Pvw" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_bKhHhIq3Ee6iRfqSgb1Pvw" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_bKhHhYq3Ee6iRfqSgb1Pvw" value="255"/>
       </node>
     </node>
   </node>
