@@ -531,6 +531,13 @@
           <attribute defType="com.stambia.rdbms.colref.ref" id="_Qkp9kn-qEe6IE6AcCtnNjw" ref="resource.md#_QkgMkH-qEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=SID_CLI?"/>
         </node>
       </node>
+      <node defType="com.stambia.rdbms.column" id="_bXaLdoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="7">
+        <attribute defType="com.stambia.rdbms.column.name" id="_bXaLd4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_bXaLeIqgEe6Bpuf23-D2iA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_bXaLeYqgEe6Bpuf23-D2iA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_bXaLeoqgEe6Bpuf23-D2iA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_bXaLe4qgEe6Bpuf23-D2iA" value="2"/>
+      </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_QZvHAX-qEe6IE6AcCtnNjw" name="DWH_ADRESSE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_QZvHAn-qEe6IE6AcCtnNjw" value="DWH_ADRESSE"/>
@@ -644,6 +651,13 @@
         <node defType="com.stambia.rdbms.colref" id="_QfPSEX-qEe6IE6AcCtnNjw" position="1">
           <attribute defType="com.stambia.rdbms.colref.ref" id="_QfPSEn-qEe6IE6AcCtnNjw" ref="resource.md#_QfFhEH-qEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=SID_CLIENT?"/>
         </node>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_bRd7hoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="16">
+        <attribute defType="com.stambia.rdbms.column.name" id="_bRd7h4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_bRd7iIqgEe6Bpuf23-D2iA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_bRd7iYqgEe6Bpuf23-D2iA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_bRd7ioqgEe6Bpuf23-D2iA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_bRd7i4qgEe6Bpuf23-D2iA" value="2"/>
       </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_QksZ0X-qEe6IE6AcCtnNjw" name="DWH_CLIENT">
@@ -776,6 +790,13 @@
           <attribute defType="com.stambia.rdbms.colref.ref" id="_Qq3TQX-qEe6IE6AcCtnNjw" ref="resource.md#_QquJVn-qEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=SID_CPT?"/>
         </node>
       </node>
+      <node defType="com.stambia.rdbms.column" id="_bc8yxoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="18">
+        <attribute defType="com.stambia.rdbms.column.name" id="_bc8yx4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_bc8yyIqgEe6Bpuf23-D2iA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_bc8yyYqgEe6Bpuf23-D2iA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_bc8yyoqgEe6Bpuf23-D2iA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_bc8yy4qgEe6Bpuf23-D2iA" value="2"/>
+      </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_QUCHoX-qEe6IE6AcCtnNjw" name="DWH_COMPTE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_QUCHon-qEe6IE6AcCtnNjw" value="DWH_COMPTE"/>
@@ -855,6 +876,13 @@
           <attribute defType="com.stambia.rdbms.colref.ref" id="_QZtR0n-qEe6IE6AcCtnNjw" ref="resource.md#_QZoZUH-qEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=SID_CPT?"/>
         </node>
       </node>
+      <node defType="com.stambia.rdbms.column" id="_a8bfpoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="11">
+        <attribute defType="com.stambia.rdbms.column.name" id="_a8bfp4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_a8bfqIqgEe6Bpuf23-D2iA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_a8bfqYqgEe6Bpuf23-D2iA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_a8bfqoqgEe6Bpuf23-D2iA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_a8bfq4qgEe6Bpuf23-D2iA" value="2"/>
+      </node>
     </node>
     <node defType="com.stambia.rdbms.datastore" id="_Qq5IcX-qEe6IE6AcCtnNjw" name="DWH_TELEPHONE">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_Qq5Icn-qEe6IE6AcCtnNjw" value="DWH_TELEPHONE"/>
@@ -929,6 +957,13 @@
         <attribute defType="com.stambia.rdbms.column.charByte" id="_RCsq03-yEe6IE6AcCtnNjw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_RCsq1H-yEe6IE6AcCtnNjw" value="VARCHAR2"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_RCsq1X-yEe6IE6AcCtnNjw" value="20"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_biidZoqgEe6Bpuf23-D2iA" name="RECORD_VERSION" position="10">
+        <attribute defType="com.stambia.rdbms.column.name" id="_biidZ4qgEe6Bpuf23-D2iA" value="RECORD_VERSION"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_biidaIqgEe6Bpuf23-D2iA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_biidaYqgEe6Bpuf23-D2iA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_biidaoqgEe6Bpuf23-D2iA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_biida4qgEe6Bpuf23-D2iA" value="2"/>
       </node>
     </node>
   </node>
