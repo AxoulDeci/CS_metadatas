@@ -1053,7 +1053,7 @@
       <node defType="com.stambia.rdbms.check" id="_NEAjAIq7Ee6UQ4O0GYlsJg" name="CTRL_EMAIL">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjAYq7Ee6UQ4O0GYlsJg" value="l'email doit etre valide"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NEAjAoq7Ee6UQ4O0GYlsJg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjA4q7Ee6UQ4O0GYlsJg" value="EMAIL NOT LIKE '%@%.%' "/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjA4q7Ee6UQ4O0GYlsJg" value="REGEXP_LIKE(email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$')"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_NEAjBIq7Ee6UQ4O0GYlsJg" value="CTRL_EMAIL"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_NEAjBYq7Ee6UQ4O0GYlsJg" name="CTRL_FK_CLIENT">
@@ -1130,6 +1130,7 @@
         <attribute defType="com.stambia.rdbms.column.size" id="_HeyrpX-yEe6IE6AcCtnNjw" value="20"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_-utccH-5Ee6IE6AcCtnNjw" name="SAS_COMPTE_PK">
+        <attribute defType="com.stambia.rdbms.pk.severity" id="_OVfQMJAlEe6u8_TKo8ZMQA" value="200"/>
         <node defType="com.stambia.rdbms.colref" id="_-utccX-5Ee6IE6AcCtnNjw" position="1">
           <attribute defType="com.stambia.rdbms.colref.ref" id="_-utccn-5Ee6IE6AcCtnNjw" ref="resource.md#_HevBQH-yEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=CLE_COMPTE?"/>
         </node>
@@ -1137,7 +1138,7 @@
       <node defType="com.stambia.rdbms.check" id="_E8wIAIq7Ee6UQ4O0GYlsJg" name="CTRL_CABINET_RATTACHEMENT">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIAYq7Ee6UQ4O0GYlsJg" value="le cabinet de rattachement doit exister"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_E8wIAoq7Ee6UQ4O0GYlsJg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_E8wIA4q7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.TRANSCO, 'TRANSCO')}x% b&#xD;&#xA;where CABINET_RATTACHEMENT=b.CABINET_RATTACHEMENT)"/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_E8wIA4q7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.TRANSCO, 'TRANSCO_CABINET_RATTACHEMENT')}x% b&#xD;&#xA;where CABINET_RATTACHEMENT=b.CABINET_RATTACHEMENT)"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_E8wIBIq7Ee6UQ4O0GYlsJg" value="CTRL_CABINET_RATTACHEMENT"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_E8wIBYq7Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
