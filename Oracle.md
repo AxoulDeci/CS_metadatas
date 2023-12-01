@@ -1137,7 +1137,7 @@
       <node defType="com.stambia.rdbms.check" id="_E8wIAIq7Ee6UQ4O0GYlsJg" name="CTRL_CABINET_RATTACHEMENT">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIAYq7Ee6UQ4O0GYlsJg" value="controle sur le cabinet de rattachement "/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_E8wIAoq7Ee6UQ4O0GYlsJg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_E8wIA4q7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.TRANSCO, 'TRANSCO')}x% b&#xD;&#xA;where CABINET_RATTACHEMENT=b.CABINET_RATTACHEMENT)"/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_E8wIA4q7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.TRANSCO, 'TRANSCO_CABINET_RATTACHEMENT')}x% b&#xD;&#xA;where CABINET_RATTACHEMENT=b.CABINET_RATTACHEMENT)"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_E8wIBIq7Ee6UQ4O0GYlsJg" value="CTRL_CABINET_RATTACHEMENT"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_E8wIBYq7Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
