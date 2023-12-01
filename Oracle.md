@@ -1611,24 +1611,6 @@
         <attribute defType="com.stambia.rdbms.column.size" id="_XjDZNYUzEe6lN4vpMDZjAg" value="255"/>
       </node>
     </node>
-    <node defType="com.stambia.rdbms.datastore" id="_XmiyEYUzEe6lN4vpMDZjAg" name="TRANSCO_COMTPE">
-      <attribute defType="com.stambia.rdbms.datastore.name" id="_XmiyEoUzEe6lN4vpMDZjAg" value="TRANSCO_COMTPE"/>
-      <attribute defType="com.stambia.rdbms.datastore.type" id="_XmiyE4UzEe6lN4vpMDZjAg" value="TABLE"/>
-      <node defType="com.stambia.rdbms.column" id="_Xp5oEIUzEe6lN4vpMDZjAg" name="TYPE_COMPTE" position="1">
-        <attribute defType="com.stambia.rdbms.column.name" id="_Xp5oEYUzEe6lN4vpMDZjAg" value="TYPE_COMPTE"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_Xp6PIIUzEe6lN4vpMDZjAg" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.charByte" id="_Xp6PIYUzEe6lN4vpMDZjAg" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Xp6PIoUzEe6lN4vpMDZjAg" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_Xp6PI4UzEe6lN4vpMDZjAg" value="20"/>
-      </node>
-      <node defType="com.stambia.rdbms.column" id="_Xp62MIUzEe6lN4vpMDZjAg" name="LIB_TYPE_COMPTE" position="2">
-        <attribute defType="com.stambia.rdbms.column.name" id="_Xp62MYUzEe6lN4vpMDZjAg" value="LIB_TYPE_COMPTE"/>
-        <attribute defType="com.stambia.rdbms.column.nullable" id="_Xp62MoUzEe6lN4vpMDZjAg" value="1"/>
-        <attribute defType="com.stambia.rdbms.column.charByte" id="_Xp62M4UzEe6lN4vpMDZjAg" value="BYTE"/>
-        <attribute defType="com.stambia.rdbms.column.type" id="_Xp62NIUzEe6lN4vpMDZjAg" value="VARCHAR2"/>
-        <attribute defType="com.stambia.rdbms.column.size" id="_Xp62NYUzEe6lN4vpMDZjAg" value="255"/>
-      </node>
-    </node>
     <node defType="com.stambia.rdbms.datastore" id="_XjMjIYUzEe6lN4vpMDZjAg" name="TRANSCO_PAYS">
       <attribute defType="com.stambia.rdbms.datastore.name" id="_XjMjIoUzEe6lN4vpMDZjAg" value="TRANSCO_PAYS"/>
       <attribute defType="com.stambia.rdbms.datastore.type" id="_XjMjI4UzEe6lN4vpMDZjAg" value="TABLE"/>
@@ -1681,6 +1663,24 @@
         <attribute defType="com.stambia.rdbms.column.charByte" id="_bKhHg4q3Ee6iRfqSgb1Pvw" value="BYTE"/>
         <attribute defType="com.stambia.rdbms.column.type" id="_bKhHhIq3Ee6iRfqSgb1Pvw" value="VARCHAR2"/>
         <attribute defType="com.stambia.rdbms.column.size" id="_bKhHhYq3Ee6iRfqSgb1Pvw" value="255"/>
+      </node>
+    </node>
+    <node defType="com.stambia.rdbms.datastore" id="_rLWDYZA0Ee6u8_TKo8ZMQA" name="TRANSCO_COMPTE">
+      <attribute defType="com.stambia.rdbms.datastore.name" id="_rLWqcJA0Ee6u8_TKo8ZMQA" value="TRANSCO_COMPTE"/>
+      <attribute defType="com.stambia.rdbms.datastore.type" id="_rLWqcZA0Ee6u8_TKo8ZMQA" value="TABLE"/>
+      <node defType="com.stambia.rdbms.column" id="_rOuukJA0Ee6u8_TKo8ZMQA" name="TYPE_COMPTE" position="1">
+        <attribute defType="com.stambia.rdbms.column.name" id="_rOuukZA0Ee6u8_TKo8ZMQA" value="TYPE_COMPTE"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_rOuukpA0Ee6u8_TKo8ZMQA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_rOuuk5A0Ee6u8_TKo8ZMQA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_rOuulJA0Ee6u8_TKo8ZMQA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_rOuulZA0Ee6u8_TKo8ZMQA" value="20"/>
+      </node>
+      <node defType="com.stambia.rdbms.column" id="_rOuulpA0Ee6u8_TKo8ZMQA" name="LIB_TYPE_COMPTE" position="2">
+        <attribute defType="com.stambia.rdbms.column.name" id="_rOuul5A0Ee6u8_TKo8ZMQA" value="LIB_TYPE_COMPTE"/>
+        <attribute defType="com.stambia.rdbms.column.nullable" id="_rOuumJA0Ee6u8_TKo8ZMQA" value="1"/>
+        <attribute defType="com.stambia.rdbms.column.charByte" id="_rOuumZA0Ee6u8_TKo8ZMQA" value="BYTE"/>
+        <attribute defType="com.stambia.rdbms.column.type" id="_rOuumpA0Ee6u8_TKo8ZMQA" value="VARCHAR2"/>
+        <attribute defType="com.stambia.rdbms.column.size" id="_rOuum5A0Ee6u8_TKo8ZMQA" value="255"/>
       </node>
     </node>
   </node>
