@@ -1051,19 +1051,19 @@
         </node>
       </node>
       <node defType="com.stambia.rdbms.check" id="_NEAjAIq7Ee6UQ4O0GYlsJg" name="CTRL_EMAIL">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjAYq7Ee6UQ4O0GYlsJg" value="controle sur l'adresse mail"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjAYq7Ee6UQ4O0GYlsJg" value="l'email doit etre valide"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NEAjAoq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjA4q7Ee6UQ4O0GYlsJg" value="EMAIL NOT LIKE '%@%.%' "/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_NEAjBIq7Ee6UQ4O0GYlsJg" value="CTRL_EMAIL"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_NEAjBYq7Ee6UQ4O0GYlsJg" name="CTRL_FK_CLIENT">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjBoq7Ee6UQ4O0GYlsJg" value="controme sur clé étangère client "/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjBoq7Ee6UQ4O0GYlsJg" value="le client doit exister"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NEAjB4q7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjCIq7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.SAS_CLIENT, 'SAS_CLIENT')}x% b&#xD;&#xA;where CLE_CLIENT=b.CLE_CLIENT)"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_NEAjCYq7Ee6UQ4O0GYlsJg" value="CTRL_FK_CLIENT"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_NEAjCoq7Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjC4q7Ee6UQ4O0GYlsJg" value="controle sur le status de l'email"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjC4q7Ee6UQ4O0GYlsJg" value="le status email est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NEBKEIq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_NEBKEYq7Ee6UQ4O0GYlsJg" value="STATUS is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_NEBKEoq7Ee6UQ4O0GYlsJg" value="CTRL_STATUS"/>
@@ -1135,19 +1135,19 @@
         </node>
       </node>
       <node defType="com.stambia.rdbms.check" id="_E8wIAIq7Ee6UQ4O0GYlsJg" name="CTRL_CABINET_RATTACHEMENT">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIAYq7Ee6UQ4O0GYlsJg" value="controle sur le cabinet de rattachement "/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIAYq7Ee6UQ4O0GYlsJg" value="le cabinet de rattachement doit exister"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_E8wIAoq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_E8wIA4q7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.TRANSCO, 'TRANSCO')}x% b&#xD;&#xA;where CABINET_RATTACHEMENT=b.CABINET_RATTACHEMENT)"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_E8wIBIq7Ee6UQ4O0GYlsJg" value="CTRL_CABINET_RATTACHEMENT"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_E8wIBYq7Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIBoq7Ee6UQ4O0GYlsJg" value="controle sur le statut"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wIBoq7Ee6UQ4O0GYlsJg" value="le status compte est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_E8wIB4q7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_E8wICIq7Ee6UQ4O0GYlsJg" value="status is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_E8wICYq7Ee6UQ4O0GYlsJg" value="CTRL_STATUS"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_E8wICoq7Ee6UQ4O0GYlsJg" name="CTRL_TYPE_CPT">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wvEIq7Ee6UQ4O0GYlsJg" value="controle sur le type de compte"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_E8wvEIq7Ee6UQ4O0GYlsJg" value="le type compte est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_E8wvEYq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.remarks" id="_E8wvEoq7Ee6UQ4O0GYlsJg" value="les null sont rejetés"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_E8wvE4q7Ee6UQ4O0GYlsJg" value="type is not null"/>
@@ -1269,7 +1269,7 @@
         </node>
       </node>
       <node defType="com.stambia.rdbms.check" id="_5orywIq6Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_5orywYq6Ee6UQ4O0GYlsJg" value="controle sur le status de l'adresse"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_5orywYq6Ee6UQ4O0GYlsJg" value="le status de l'adresse est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_5orywoq6Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_5oryw4q6Ee6UQ4O0GYlsJg" value="STATUS is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_5oryxIq6Ee6UQ4O0GYlsJg" value="CTRL_STATUS"/>
@@ -1385,19 +1385,19 @@
         </node>
       </node>
       <node defType="com.stambia.rdbms.check" id="_-t7ORYq6Ee6UQ4O0GYlsJg" name="CTRL_FK_COMPTE">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7ORoq6Ee6UQ4O0GYlsJg" value="controle sur clé étrangère compte"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7ORoq6Ee6UQ4O0GYlsJg" value="le compte doit exister"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_-t7OR4q6Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_-t7OSIq6Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.SAS, 'SAS_COMPTE')}x% b&#xD;&#xA;where CLE_COMPTE=b.CLE_COMPTE)"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_-t7OSYq6Ee6UQ4O0GYlsJg" value="CTRL_FK_COMPTE"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_-t7OSoq6Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7OS4q6Ee6UQ4O0GYlsJg" value="controle sur le status"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7OS4q6Ee6UQ4O0GYlsJg" value="le status client est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_-t7OTIq6Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_-t7OTYq6Ee6UQ4O0GYlsJg" value="STATUS is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_-t7OToq6Ee6UQ4O0GYlsJg" value="CTRL_STATUS"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_-t7OT4q6Ee6UQ4O0GYlsJg" name="CTRL_TYPE">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7OUIq6Ee6UQ4O0GYlsJg" value="controle sur le type client"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_-t7OUIq6Ee6UQ4O0GYlsJg" value="le type client est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_-t7OUYq6Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_-t7OUoq6Ee6UQ4O0GYlsJg" value="TYPE is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_-t7OU4q6Ee6UQ4O0GYlsJg" value="CTRL_TYPE"/>
@@ -1479,31 +1479,31 @@
         </node>
       </node>
       <node defType="com.stambia.rdbms.check" id="_RHlGIIq7Ee6UQ4O0GYlsJg" name="CTRL_FAVORI">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGIYq7Ee6UQ4O0GYlsJg" value="controle sur le telephone favori"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGIYq7Ee6UQ4O0GYlsJg" value="le téléphone favori est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_RHlGIoq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHlGI4q7Ee6UQ4O0GYlsJg" value="FAVORI is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHlGJIq7Ee6UQ4O0GYlsJg" value="CTRL_FAVORI"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_RHlGJYq7Ee6UQ4O0GYlsJg" name="CTRL_FK_CLIENT">
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHlGJoq7Ee6UQ4O0GYlsJg" value="exists( select 1 from %x{md:objectPath($CSG1_ORA1.SAS_CLIENT, 'SAS_CLIENT')}x% b&#xD;&#xA;where CLE_CLIENT=b.CLE_CLIENT)"/>
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGJ4q7Ee6UQ4O0GYlsJg" value="controle sur la clé etrangère client"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGJ4q7Ee6UQ4O0GYlsJg" value="le client doit exister"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_RHlGKIq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHlGKYq7Ee6UQ4O0GYlsJg" value="CTRL_FK_CLIENT"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_RHlGKoq7Ee6UQ4O0GYlsJg" name="CTRL_PHONE">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGK4q7Ee6UQ4O0GYlsJg" value="controle sur le numéro de telephase "/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGK4q7Ee6UQ4O0GYlsJg" value="le numéro de téléphone est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_RHlGLIq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHlGLYq7Ee6UQ4O0GYlsJg" value="PHONE is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHlGLoq7Ee6UQ4O0GYlsJg" value="CTRL_PHONE"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_RHlGL4q7Ee6UQ4O0GYlsJg" name="CTRL_STATUS">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGMIq7Ee6UQ4O0GYlsJg" value="controle sur le status du telephone "/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHlGMIq7Ee6UQ4O0GYlsJg" value="le status téléphone est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_RHlGMYq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHlGMoq7Ee6UQ4O0GYlsJg" value="STATUS is not null "/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHlGM4q7Ee6UQ4O0GYlsJg" value="CTRL_STATUS"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_RHlGNIq7Ee6UQ4O0GYlsJg" name="CTRL_TYPE">
-        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHltMIq7Ee6UQ4O0GYlsJg" value="controle sur le type du telephone"/>
+        <attribute defType="com.stambia.rdbms.check.userMessage" id="_RHltMIq7Ee6UQ4O0GYlsJg" value="le type téléphone est obligatoire"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_RHltMYq7Ee6UQ4O0GYlsJg" value="200"/>
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHltMoq7Ee6UQ4O0GYlsJg" value="TYPE is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHltM4q7Ee6UQ4O0GYlsJg" value="CTRL_TYPE"/>
