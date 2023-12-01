@@ -1053,7 +1053,7 @@
       <node defType="com.stambia.rdbms.check" id="_NEAjAIq7Ee6UQ4O0GYlsJg" name="CTRL_EMAIL">
         <attribute defType="com.stambia.rdbms.check.userMessage" id="_NEAjAYq7Ee6UQ4O0GYlsJg" value="controle sur l'adresse mail"/>
         <attribute defType="com.stambia.rdbms.check.severity" id="_NEAjAoq7Ee6UQ4O0GYlsJg" value="200"/>
-        <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjA4q7Ee6UQ4O0GYlsJg" value="EMAIL NOT LIKE '%@%.%' "/>
+        <attribute defType="com.stambia.rdbms.check.sql" id="_NEAjA4q7Ee6UQ4O0GYlsJg" value="REGEXP_LIKE(email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$')"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_NEAjBIq7Ee6UQ4O0GYlsJg" value="CTRL_EMAIL"/>
       </node>
       <node defType="com.stambia.rdbms.check" id="_NEAjBYq7Ee6UQ4O0GYlsJg" name="CTRL_FK_CLIENT">
