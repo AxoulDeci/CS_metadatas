@@ -1509,9 +1509,6 @@
         <attribute defType="com.stambia.rdbms.check.sql" id="_RHltMoq7Ee6UQ4O0GYlsJg" value="TYPE is not null"/>
         <attribute defType="com.stambia.rdbms.check.rejectCode" id="_RHltM4q7Ee6UQ4O0GYlsJg" value="CTRL_TYPE"/>
       </node>
-      <node defType="com.stambia.rdbms.check" id="_3VnB0ZApEe6u8_TKo8ZMQA">
-        <attribute defType="com.stambia.rdbms.check.sql" id="_9UvSsJApEe6u8_TKo8ZMQA" value="(CLE_CLIENT, TYPE) in (&#xD;&#xA;&#x9;&#x9;select CLE_CLIENT,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;TYPE&quot;&#xD;&#xA;&#x9;&#x9;from &#x9;CSG1_ORA1.ODS_TELEPHONE&#xD;&#xA;&#x9;&#x9;group by &#x9;CLE_CLIENT,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;TYPE&quot;&#xD;&#xA;&#x9;&#x9;having &#x9;count(1) > 1"/>
-      </node>
       <metaDataLink name="SAS" target="resource.md#_AHwtUH-qEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=SAS?"/>
     </node>
   </node>
