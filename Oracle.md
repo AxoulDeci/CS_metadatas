@@ -1130,6 +1130,7 @@
         <attribute defType="com.stambia.rdbms.column.size" id="_HeyrpX-yEe6IE6AcCtnNjw" value="20"/>
       </node>
       <node defType="com.stambia.rdbms.pk" id="_-utccH-5Ee6IE6AcCtnNjw" name="SAS_COMPTE_PK">
+        <attribute defType="com.stambia.rdbms.pk.severity" id="_OVfQMJAlEe6u8_TKo8ZMQA" value="200"/>
         <node defType="com.stambia.rdbms.colref" id="_-utccX-5Ee6IE6AcCtnNjw" position="1">
           <attribute defType="com.stambia.rdbms.colref.ref" id="_-utccn-5Ee6IE6AcCtnNjw" ref="resource.md#_HevBQH-yEe6IE6AcCtnNjw?fileId=_TkY50HozEe6i1bEIfNaCgQ$type=md$name=CLE_COMPTE?"/>
         </node>
