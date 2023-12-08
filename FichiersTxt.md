@@ -10,7 +10,7 @@
       <attribute defType="com.stambia.file.file.lineToSkip" id="_Hh84YXSxEe6Cj7jyPVDy-A" value="0"/>
       <attribute defType="com.stambia.file.file.lastLineToSkip" id="_Hh9fcHSxEe6Cj7jyPVDy-A" value="0"/>
       <attribute defType="com.stambia.file.file.header" id="_Hh9fcXSxEe6Cj7jyPVDy-A" value="0"/>
-      <attribute defType="com.stambia.file.file.physicalName" id="_V_GecHSxEe6Cj7jyPVDy-A" value="F_CLIENT_20231110.txt"/>
+      <attribute defType="com.stambia.file.file.physicalName" id="_V_GecHSxEe6Cj7jyPVDy-A" value="F_CLIENT_20231208.txt"/>
       <attribute defType="com.stambia.file.file.charsetName" id="_IuN18Ho9Ee6mjOH6QyZAxg" value="UTF-8"/>
       <node defType="com.stambia.file.record" id="_vFq6QXSxEe6Cj7jyPVDy-A" name="COMPTE">
         <node defType="com.stambia.file.filter" id="_rD1nEXSyEe6Cj7jyPVDy-A" name="CRITERE">
@@ -353,7 +353,7 @@
       <attribute defType="com.stambia.file.file.lineToSkip" id="_smFd-IqgEe6wS8JTT7vucg" value="0"/>
       <attribute defType="com.stambia.file.file.lastLineToSkip" id="_smFd-YqgEe6wS8JTT7vucg" value="0"/>
       <attribute defType="com.stambia.file.file.header" id="_smFd-oqgEe6wS8JTT7vucg" value="0"/>
-      <attribute defType="com.stambia.file.file.physicalName" id="_smFd-4qgEe6wS8JTT7vucg" value="F_CLIENT_20231110.txt"/>
+      <attribute defType="com.stambia.file.file.physicalName" id="_smFd-4qgEe6wS8JTT7vucg" value="F_CLIENT_20231208.txt"/>
       <node defType="com.stambia.file.field" id="_smFd_IqgEe6wS8JTT7vucg" name="F6" position="6">
         <attribute defType="com.stambia.file.field.size" id="_smFd_YqgEe6wS8JTT7vucg" value="64"/>
         <attribute defType="com.stambia.file.field.type" id="_smFd_oqgEe6wS8JTT7vucg" value="String"/>
